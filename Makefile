@@ -3,7 +3,7 @@ SHELL   = /bin/sh
 CC      = gcc
 
 # compile flags.
-CFLAGS  = -g -std=c99 -pedantic -Wall -Wextra -Werror -march=native -O2 -fwhole-program -flto
+CFLAGS  = -g -std=c99 -pedantic -Wall -Wextra -Werror -O2 -fwhole-program -flto
 
 TARGET  = icmptunnel
 MANPAGE = icmptunnel.8
